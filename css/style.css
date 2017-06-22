@@ -190,6 +190,7 @@
    .footer-menu {
        width: 100%;
        margin: 35px 0 20px;
+       list-style: none;
    }
    
    .footer-menu,
@@ -200,7 +201,8 @@
    }
    
    .social li {
-       margin-left: 9px;
+       margin-left: 30px;
+       list-style: none;
    }
    
    .social li a {
@@ -209,15 +211,18 @@
        color: #fff;
    }
    
-   .social i {
+   .fa-envelope-o,
+   .fa-twitter,
+   .fa-facebook {
        padding: 12px;
        border: 1px solid #fff;
        border-radius: 50%;
    }
    
    .footer-list li {
-       margin-right: 35px;
+       margin-right: 30px;
        text-transform: uppercase;
+       list-style: none;
    }
    
    .footer-list li a {
@@ -243,4 +248,5 @@
        padding: 0 11px;
        border-right: 1px solid #73767a;
        line-height: 12px;
+       list-style: none;
    }
